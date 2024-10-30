@@ -1,0 +1,79 @@
+/* RectangleWithLabels.css */
+
+.rectangle1 {
+    position: relative;
+    width: auto; /* Adjust width */
+    height: 250px; /* Adjust height */
+    display: flex;
+    justify-content: center; /* Center inner rectangle */
+    align-items: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3D4B6C;
+  }
+
+.rectangle2 {
+    position: relative;
+    width: 60%; /* Adjust width */
+    height: 150px; /* Adjust height */
+    border: 10px solid #28334D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
+  .label {
+    position: absolute;
+    padding: 5px;
+    color: white;
+  }
+  
+  .label.top1 {
+    top: 5px; /* Position above the rectangle */
+  }
+  
+  .label.right1 {
+    right: 0px; /* Position to the right */
+  }
+  
+  .label.bottom1 {
+    bottom: 5px; /* Position below the rectangle */
+  }
+  
+  .label.left1 {
+    left: 0px; /* Position to the left */
+  }
+
+  
+  .label.top2 {
+    top: 5px; /* Position above the rectangle */
+  }
+  
+  .label.right2 {
+    right: 5px; /* Position to the right */
+  }
+  
+  .label.bottom2 {
+    bottom: 5px; /* Position below the rectangle */
+  }
+  
+  .label.left2 {
+    left: 5px; /* Position to the left */
+  }
+  
+
+  .valueInput {
+    background-color: transparent;
+    border: 1px solid rgb(0, 136, 255);
+    width: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #28334D;
+    color: white;
+  }
+
+  .changed {
+    border-bottom: 1px dotted yellow;
+  }
